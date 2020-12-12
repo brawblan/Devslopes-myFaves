@@ -1,0 +1,66 @@
+html {
+  width: 100%;
+}
+
+h1 {
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  text-decoration: underline;
+}
+
+h2 {
+  margin-top: 5px;
+  text-decoration: underline;
+  text-align: center;
+  text-shadow: 2px 1px 1px rgb(0, 0, 0, .3);
+}
+
+table {
+  border: 5px double black;
+  width: 100%;
+  background-color: rgb(233, 233, 233);
+  border-radius: 10px;
+}
+
+th, tr {
+  border: 1px inset black;
+  border-radius: 10px;
+}
+
+td {
+  border: 5px ridge black;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 250px;
+  max-height: 120px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.fav li {
+  color: red;
+}
+
+.not-fav li {
+  color: blue;
+}
+
+.favHead {
+  background-color: rgb(7, 7, 126);
+  color: rgb(182, 40, 40);
+  font-size: 35px;
+  text-shadow: 1.2px 1.2px 1px rgb(255, 255, 255);
+}
+
+.not-favHead {
+  background-color: rgb(189, 32, 32);
+  color: whitesmoke;
+  font-size: 35px;
+  text-shadow: 1.2px 1.2px 3px rgb(63, 63, 63);
+}
